@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Keep package-lock.json for consistency
+# package-lock.json
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MongoDB data (if using local database)
+data/
+dump/
+
+# Docker-related
+docker-compose.override.yml
+docker-data/
+*.tar
+
+# Swagger-generated files (if auto-generated)
+docs/swagger.json
+
+# Logs
+logs/
+*.log
+
+# Miscellaneous
+*.bak
+*.cache
+*.pid
