@@ -26,7 +26,8 @@ npm install
 Create a `.env` file in the root directory and add the following:
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/collectionDB
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=collectionDB
 JWT_SECRET=zQDfWv0r68eBP1DFJv70MhOBPSeN1waC
 ACCESS_TOKEN_EXPIRY=1h
 ```
